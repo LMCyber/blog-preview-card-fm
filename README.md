@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://lmcyber.github.io/blog-preview-card-fm/)
-- Live Site URL: [Add live site URL here](https://lmcyber.github.io/blog-preview-card-fm/)
+- Solution URL: [Git hub pages](https://lmcyber.github.io/blog-preview-card-fm/)
+- Live Site URL: [Git hub pages](https://lmcyber.github.io/blog-preview-card-fm/)
 
 ## My process
 
