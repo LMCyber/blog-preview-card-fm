@@ -33,8 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Git hub pages](https://lmcyber.github.io/blog-preview-card-fm/)
-- Live Site URL: [Git hub pages](https://lmcyber.github.io/blog-preview-card-fm/)
+- Live Site URL: [netlify](https://my-fm-blog-preview-card.netlify.app/)
 
 ## My process
 
