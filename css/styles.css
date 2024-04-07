@@ -32,24 +32,48 @@ body {
 }
 
 .container {
+  width: 325px;
+  height: 499px;
   background-color: var(--white);
-  width: 30rem;
-  border-radius: 1.8rem;
-  border: 1px solid;
-  box-shadow: 12px 12px 0px 0px var(--black);
-  padding: 2.1rem;
-  margin: 0;
+  border-radius: 20px;
+  box-shadow: 8px 8px 0 0 var(--black);
+  padding: 22px;
 }
 
-.description {
-  color: var(--grey);
-  line-height: 1.5;
-  font-size: 1.31rem;
+img {
+  height: 200px;
+  width: 280px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 21px;
+}
+
+.tag {
+  background-color: var(--yellow);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  width: 70px;
+  height: 24px;
+  font-size: 9px;
+  font-weight: 800;
+  margin-top: 0;
+  margin-bottom: 13px;
+}
+
+.createdAt {
+  font-size: 13px;
+  margin-bottom: 17px;
 }
 
 .title {
-  font-weight: 800;
-  font-size: 1.63rem;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.container:hover {
+  box-shadow: 16px 16px 0 0 var(--black);
 }
 
 .title:hover {
@@ -57,68 +81,56 @@ body {
   color: var(--yellow);
 }
 
-img {
-  border-radius: 0.8rem;
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
-
-.tag {
-  padding: 0.8rem 1.5rem;
-  background-color: var(--yellow);
-  border-radius: 0.5rem;
-  display: inline-block;
-  color: var(--black);
-  font-weight: 800;
-  font-size: 0.9rem;
-  margin: 0;
-}
-
-.createdAt {
-  font-size: 1.18rem;
-}
-
-.content {
-  margin-top: 1.5rem;
+.description {
+  font-size: 14px;
+  color: var(--grey);
+  line-height: 1.5;
+  margin-bottom: 23px;
 }
 
 .author {
   display: flex;
   justify-content: start;
-  align-items: center;
+  margin: 0;
   gap: 1rem;
   font-weight: 800;
 }
 
-.author img {
-  height: 12%;
-  width: 12%;
-  object-fit: cover;
+.avatar {
+  width: 35px;
+  height: 35px;
 }
 
 .author p {
-  font-size: 1.4rem;
+  font-size: 14px;
+  margin-top: 8px;
 }
 
 @media (min-width: 375px) {
   .container {
-    width: 36rem;
+    width: 382px;
+    height: 519px;
   }
 
-  .description {
-    font-size: 1.6rem;
-  }
-
-  .title {
-    font-size: 1.97rem;
-  }
-
-  .createdAt {
-    font-size: 1.4rem;
+  img {
+    width: 335px;
   }
 
   .tag {
-    font-size: 1.15rem;
+    width: 80px;
+    height: 27px;
+    font-size: 12px;
+  }
+
+  .title {
+    font-size: 23.3px;
+  }
+
+  .createdAt {
+    font-size: 15px;
+  }
+
+  .description {
+    font-size: 16px;
   }
 }
