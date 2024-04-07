@@ -64,12 +64,12 @@ img {
 
 .createdAt {
   font-size: 13px;
-  margin-bottom: 17px;
+  margin-bottom: 19px;
 }
 
 .title {
   font-size: 20px;
-  margin-bottom: 15px;
+  margin-bottom: 17px;
 }
 
 .container:hover {
@@ -85,7 +85,7 @@ img {
   font-size: 14px;
   color: var(--grey);
   line-height: 1.5;
-  margin-bottom: 23px;
+  margin-bottom: 25px;
 }
 
 .author {
@@ -119,7 +119,7 @@ img {
   .tag {
     width: 80px;
     height: 27px;
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .title {
