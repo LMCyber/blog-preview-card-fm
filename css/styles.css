@@ -106,7 +106,7 @@ img {
   margin-top: 8px;
 }
 
-@media (min-width: 375px) {
+@media (min-width: 380px) {
   .container {
     width: 382px;
     height: 519px;
